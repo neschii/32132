@@ -1,7 +1,4 @@
 **<h1 align="center"> Hello Kitty Login Form </h1>** 
-
-
-**<h1 align="center"> Instalações ⚙️</h1>**
 <p align=center> React + Vite  </p>
 
 
