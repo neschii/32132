@@ -7,7 +7,7 @@
 ```c
 # npm create vite@latest
 | Criar o projeto
-# Project Name » Timer » Select a Framework: » React » Select a Variant: » Typescript 
+# Project Name » Timer » Select a Framework: » React » Select a Variant: » JavaScript 
 
 
 # npm install
