@@ -1,7 +1,6 @@
 import { FaUser, FaLock, FaEye, FaRegEyeSlash } from 'react-icons/fa';
-import "./LoginForm.css";
 import { useState } from 'react';
-
+import "./LoginForm.css";
 
 const Login = () => {
   const [username, setUsername] = useState("");
@@ -14,6 +13,7 @@ const Login = () => {
 
 
  return (
+    
       <div className="container">
         <form onSubmit={handleSubmit}>
             <h1> <a href="/">HELLO WORLD</a></h1>
@@ -31,7 +31,7 @@ const Login = () => {
              <div className="input-field" >
             <input 
                     type={visible ? "text" : "password"}
-                    placeholder="Password"
+                    placeholder="Senha"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     autoComplete="current-password"
@@ -64,7 +64,12 @@ const Login = () => {
          </form>
       </div>
     
+
+
+
   )
 }
+
+
 
 export default Login

@@ -54,9 +54,9 @@
     position: absolute;
     right: 25px;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-35%);
     color: #a52a2a;
-    font-size: 18px;
+    font-size: 20px;
     cursor: pointer;
 }
 
